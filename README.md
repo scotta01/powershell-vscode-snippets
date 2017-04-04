@@ -5,9 +5,9 @@ Initial commit only has a snippet imported from ISE. I will gradually add more a
 ### Installation
 #### Fresh install
 * Copy powershell.json to your snippets path for Visual Studio Code. For example
-```
-C:\Users\scotta01\AppData\Roaming\Code\User\snippets
-```
+    ```
+    C:\Users\scotta01\AppData\Roaming\Code\User\snippets
+    ```
 #### Add to existing snippets
 
 * Alternatively, open Visual Studio Code, press Ctrl,Shift + P to open the command palette
