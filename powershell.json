@@ -1,0 +1,40 @@
+{
+	"cmdlet" : {
+		"prefix": "cmdlet",
+		"body": [
+			"<#",
+			".Synopsis",
+			"Short description",
+			".DESCRIPTION",
+			"Long description",
+			".EXAMPLE",
+			"Example of how to use this cmdlet",
+			".EXAMPLE",
+			"Another example of how to use this cmdlet",
+			"#>\r\n",
+			"[CmdletBinding()]",
+			"[Alias()]",
+			"[OutputType([int])]",
+			"Param",
+			"(",
+				"\t# Param1 help description",
+				"\t[Parameter(Mandatory=\\$true,ValueFromPipelineByPropertyName=\\$true,Position=0)]",
+				"\t\\$Param1,\r\n",
+				"\t# Param2 help description",
+				"\t[int]",
+				"\t\\$Param2",
+			")\r\n",
+			"Begin",
+			"{",
+			"}",
+			"Process",
+			"{",
+			"}",
+			"End",
+			"{",
+			"}"
+		],
+		"description" : "Powershell cmdlet imported from ISE"
+
+	}
+}
